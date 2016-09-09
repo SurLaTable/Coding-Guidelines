@@ -9,7 +9,7 @@
 * [Database Names](#database-names)
 * [Field Names](#field-names)
 * [Functions](#functions)
-* [Aggregation](aggregation)
+* [Aggregation](#aggregation)
 * [File Naming Convention](#file-naming-convention)
 
 ## <a name="general-guidelines">General Names
