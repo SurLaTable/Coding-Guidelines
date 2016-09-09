@@ -2,6 +2,15 @@
 
 ![Cali-Mongo](https://scontent-lax3-1.xx.fbcdn.net/t31.0-8/14196062_508726895991144_2686693989240624443_o.png)
 
+## Table of Contents
+
+* [Collection Names](#collection-names)
+* [Database Names]
+* [Field Names]
+* [Functions]
+* [Aggregation]
+* [File Naming Convention]
+
 * Use American spelling.
 * Use tabs to indent. This applies to all MongoDB-specific code (chained functions) and objects used by MongoDB (queries, projections, documents).
 * Always have a space after a : colon.
@@ -51,7 +60,7 @@ var proj = { _id: 0, a: 1, b: 1,
 * Collections database, variables, properties and function names should use lowerCamelCase. They should also be descriptive. Single character variables and uncommon abbreviations should generally be avoided.
 * Place spaces between nested parentheticals and elements in JavaScript examples. For example, prefer __{ [ a, a, a ] }__ over __{[a,a,a]}__.
 
-## Collection Names
+## <a name="collection-names">Collection Names
 
 * Try to have the database named after the project and one database per project.
 * Use camelCase.
