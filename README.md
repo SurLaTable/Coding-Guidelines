@@ -83,7 +83,7 @@ var proj = { _id: 0, a: 1, b: 1,
 ## <a name="field-names">Field Names
 
 * Use camelCase.
-* Don’t use _ *underscore* as the starting character of the field name. The only field with _ undescore should be _id.
+* Don’t use _ *underscore* as the starting character of the field name. The only field with _ _undescore_ should be _id.
 * Field names cannot contain . dots or null characters and must not start with a $ *dollar sign*.
 
 Manual references are named after the referenced collection. Use the document type (collection name in singular) followed by _id ( <document>_id ). This is the only case where you can use underscore in the middle.
