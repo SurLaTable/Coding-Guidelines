@@ -16,7 +16,7 @@
 
 * Use American spelling.
 * Use tabs to indent. This applies to all MongoDB-specific code (chained functions) and objects used by MongoDB (queries, projections, documents).
-* Always have a space after a : colon.
+* Always have a space after a : _colon_.
 * Comma-last.
 
 If you divide the components of an object/array into various lines, use one line for each component. The } *closing curly brace* should follow the last component (except for aggregation).
@@ -59,7 +59,7 @@ var proj = { _id: 0, a: 1, b: 1,
 
 ```
 
-* No _ underscores in the middle of names (database, collection, fields) except for manual references.
+* No _ _underscores_ in the middle of names (database, collection, fields) except for manual references.
 * Collections database, variables, properties and function names should use lowerCamelCase. They should also be descriptive. Single character variables and uncommon abbreviations should generally be avoided.
 * Place spaces between nested parentheticals and elements in JavaScript examples. For example, prefer __{ [ a, a, a ] }__ over __{[a,a,a]}__.
 
@@ -84,7 +84,7 @@ var proj = { _id: 0, a: 1, b: 1,
 
 * Use camelCase.
 * Don’t use _ *underscore* as the starting character of the field name. The only field with _ undescore should be _id.
-* Field names cannot contain . dots or null characters and must not start with a $ dollar sign.
+* Field names cannot contain . dots or null characters and must not start with a $ *dollar sign*.
 
 Manual references are named after the referenced collection. Use the document type (collection name in singular) followed by _id ( <document>_id ). This is the only case where you can use underscore in the middle.
 
@@ -173,7 +173,7 @@ Unary operators ($gt, $lte, $sum, $avg, etc), their operands, and the field they
 
 If there is only one component/object in the stage or if it’s a logical operator (*and, or*), the { *opening braces* and } *closing braces* after the stage name should go on that same line.
 
-**Good*
+**Good**
 
 ```javascript
 {
