@@ -306,8 +306,8 @@ db.zips.aggregate( [
 
 **Source**
 
-[https://docs.mongodb.com/manual/meta/style-guide](https://docs.mongodb.com/manual/meta/style-guide)
-[https://docs.mongodb.com/manual/faq/fundamentals/#faq-small-documents](https://docs.mongodb.com/manual/faq/fundamentals/#faq-small-documents)
-[https://github.com/mongodb/mongo/wiki/Server-Code-Style](https://github.com/mongodb/mongo/wiki/Server-Code-Style)
-[http://www.learnit.net.in/2016/03/schema-design-and-naming-conventions-in.html](http://www.learnit.net.in/2016/03/schema-design-and-naming-conventions-in.html)
-[https://github.com/felixge/node-style-guide](https://github.com/felixge/node-style-guide)
+* [https://docs.mongodb.com/manual/meta/style-guide](https://docs.mongodb.com/manual/meta/style-guide)
+* [https://docs.mongodb.com/manual/faq/fundamentals/#faq-small-documents](https://docs.mongodb.com/manual/faq/fundamentals/#faq-small-documents)
+* [https://github.com/mongodb/mongo/wiki/Server-Code-Style](https://github.com/mongodb/mongo/wiki/Server-Code-Style)
+* [http://www.learnit.net.in/2016/03/schema-design-and-naming-conventions-in.html](http://www.learnit.net.in/2016/03/schema-design-and-naming-conventions-in.html)
+* [https://github.com/felixge/node-style-guide](https://github.com/felixge/node-style-guide)
