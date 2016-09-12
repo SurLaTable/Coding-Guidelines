@@ -65,19 +65,20 @@ var proj = { _id: 0, a: 1, b: 1,
 
 ## <a name="collection-names">Collection Names
 
-* Try to have the database named after the project and one database per project.
-* Use camelCase.
-* A database with “” *empty string* is not a valid database name.
-* Database name cannot be more than 64 bytes.
-* Database name are case-sensitive, even on non-case-sensitive file systems. Thus it is good to keep name in lower case.
-* A database name cannot contain any of these characters “/, \, ., “, *, <, >, :, |, ?, $,”. It also cannot contain a single space or null character.
+* The name should be a plural of the types of documents to be saved.
+* Use camelCase. Normally you shouldn’t have to because the collection name will be one word (plural of the types of documents saved).
+* A collection with “” *empty string* is not a valid collection name.
+* A collection name should not contain the *null* character because this defines the end of collection name.
+* Collection name should not start with the prefix “system.” as this is reserved for internal collections.
+*It would be good to not contain the character “$” in the collection name as various drivers available for database do not support “$” in collection name.
 
 ## <a name="database-names">Database Names
 
+* Try to have the database named after the project and one database per project.
 * Use camelCase.
 * A database with “” *empty string* is not a valid database name.
-* Database name cannot be more than 64 bytes.
-* Database name are case-sensitive, even on non-case-sensitive file systems. Thus it is good to keep name in lower case.
+* Database names cannot be more than 64 bytes.
+* Database names are case-sensitive, even on non-case-sensitive file systems. Thus it is good to keep name in lower case.
 * A database name cannot contain any of these characters *“/, \, ., “, *, <, >, :, |, ?, $,”*. It also cannot contain a single space or null character.
 
 ## <a name="field-names">Field Names
