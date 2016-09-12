@@ -14,7 +14,7 @@
 
 ## <a name="general-guidelines">General Names
 
-* Use English Language with American spelling (e.g. 'behavior' instead of 'behaviour') for all names.
+* Use American English spelling (e.g. 'behavior' instead of 'behaviour') for all names.
 * Use tabs to indent. This applies to all MongoDB-specific code (chained functions) and objects used by MongoDB (queries, projections, documents).
 * Always have a space after a : _colon_.
 * Comma-last.
