@@ -1,6 +1,6 @@
 # Coding Guidelines
 
-![Cali-Mongo](https://scontent-lax3-1.xx.fbcdn.net/t31.0-8/14196062_508726895991144_2686693989240624443_o.png)
+![Cali-Mongo](https://scontent-iad3-1.xx.fbcdn.net/v/t31.0-8/14114893_508726745991159_2451845192695865719_o.png?oh=8baef224ad34f94c3f089003b82f7d8d&oe=59282C8B)
 
 ## Table of Contents
 
